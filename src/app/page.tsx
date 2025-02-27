@@ -68,7 +68,7 @@ const HomePage = () => {
     <>
       <div className='relative mx-auto flex flex-col items-center justify-center gap-4 pb-10 pt-24'>
         <Spotlight className='-top-4 left-56' />
-        <h1 className='text-xl font-semibold'>Salim</h1>
+        <h1 className='text-2xl font-semibold'>Salim</h1>
         <p className='text-[#a1a1a1]'>Product && Software Engineer</p>
       </div>
       <PrimaryLinks />
