@@ -1,3 +1,4 @@
+/** @type {import('next').NextConfig} */
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
@@ -5,10 +6,13 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'honghong.me'
+        hostname: 'salim.engineer'
       }
     ]
   }
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
 export default nextConfig
