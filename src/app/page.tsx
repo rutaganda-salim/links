@@ -1,13 +1,11 @@
-import { FiBook } from 'react-icons/fi'
 import {
   SiDailydotdev,
   SiDiscord,
-  SiFacebook,
   SiGithub,
   SiInstagram,
   SiLinkedin,
-  siPeerlist,
-  siWhatsapp,
+  SiPeerlist,
+  SiWhatsapp,
   SiX,
   SiYoutube
 } from 'react-icons/si'
