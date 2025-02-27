@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { FiBook } from 'react-icons/fi'
 import {
   SiDailydotdev,
