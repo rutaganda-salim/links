@@ -14,8 +14,8 @@ type RootLayoutProps = {
 }
 
 const SITE_URL =
-  process.env.NODE_ENV === 'production' ? 'https://links.honghong.me' : 'http://localhost:3000'
-const SITE_TITLE = 'Links | Nelson Lai - A Full Stack Engineer'
+  process.env.NODE_ENV === 'production' ? 'https://links.salim.engineer' : 'http://localhost:3000'
+const SITE_TITLE = 'Links | Salim Rutaganda - A Product Engineer'
 const SITE_DESCRIPTION =
   'Connect with me on all my social media profiles through Links. Discover new content and stay updated with my latest posts!'
 
@@ -36,10 +36,10 @@ export const metadata: Metadata = {
   },
   manifest: '/favicon/site.webmanifest',
   twitter: {
-    title: 'Nelson Lai',
+    title: 'Salim',
     card: 'summary_large_image',
-    site: '@tszhong0411',
-    creator: '@tszhong0411',
+    site: '@salimnunez01',
+    creator: '@salimnunez01',
     images: [
       {
         url: 'https://honghong.me/images/projects/links/cover.png',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_URL
   },
-  keywords: ['tszhong0411', 'tszhong0411 social media', 'tszhong0411 links', 'links'],
+  keywords: ['Salim Rutaganda', 'Salim Rutaganda', 'Salim Rutaganda links', 'links'],
   creator: 'tszhong0411',
   openGraph: {
     url: SITE_URL,
